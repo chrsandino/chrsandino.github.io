@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <!-- Hi, Chris Here. Please DELETE the two <script> tags below if you use this HTML, otherwise my analytics will track your page -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135634757-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135634757-1');
+  </script>
+
+  <!-- Academicons CSS -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <!-- Fontawesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+  <title>Christopher Sandino</title>
+  
+  <meta name="author" content="Christopher Sandino">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/stanford.ico">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Christopher Sandino</name>
+              </p>
+
+              <p>I am a Ph.D. student at Stanford University where I work on computational magnetic resonance imaging and artificial intelligence. I am advised by <a href="https://profiles.stanford.edu/shreyas-vasanawala">Shreyas Vasanawala</a> and funded by the NSF Graduate Research Fellowship.
+              </p>
+              <p>I did my undergrad at University of Southern California where I worked with <a href="https://viterbi.usc.edu/directory/faculty/Nayak/Krishna">Krishna Nayak</a> on cardiac MRI for a few years. I've also interned at the National Institutes of Health and GE Healthcare. This summer I will be working at Apple AI Research&nbsp <i class="mx-1 fab fa-1x fa-apple text-muted" data-toggle="tooltip" title="LinkedIn"></i>
+              </p>
+
+              <p style="text-align:center">
+                <a href="mailto:sandino@stanford.edu">
+                  <i class="mx-1 fas fa-2x fa-envelope text-muted" data-toggle="tooltip" title="Email"></i>
+                </a> &nbsp&nbsp
+                <a href="https://scholar.google.com/citations?user=of5XwBQAAAAJ">
+                  <i class="mx-1 ai ai-2x ai-google-scholar text-muted" data-toggle="tooltip" title="Google Scholar"></i>
+                </a> &nbsp&nbsp
+                <a href="https://github.com/chrsandino">
+                  <i class="mx-1 fab fa-2x fa-github text-muted" data-toggle="tooltip" title="Github"></i>
+                </a> &nbsp&nbsp
+                <a href="https://www.linkedin.com/in/chrissandino/">
+                  <i class="mx-1 fab fa-2x fa-linkedin text-muted" data-toggle="tooltip" title="LinkedIn"></i>
+                </a> &nbsp&nbsp
+                <a href="files/Academic_CV.pdf">
+                  <i class="mx-1 ai ai-2x ai-cv text-muted" data-toggle="tooltip" title="CV"></i>
+                </a>
+              </p>
+
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/SandinoProfile-circle.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/SandinoProfile-circle.png" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>News</heading>
+              <ul>
+                <li>January 17, 2020: Our tutorial on deep learning-based MR image reconstruction was published in IEEE Signal Processing Magazine! See <a href="https://ieeexplore.ieee.org/document/8962386">paper</a> and <a href="https://github.com/MRSRL/dl-cs">code</a>.<br /></li>
+              </ul>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                Broadly, I'm interested in developing signal processing and artificial intelligence approaches to solve problems in computational sensing. Currently, I focus on upstream AI methods to improve pediatric magnetic resonance imaging with respect to speed and diagnostic accuracy. Representative papers are <span class="highlight">highlighted</span>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <!-- Cine Project -->
+          <tr onmouseout="nerf_stop()" onmouseover="nerf_start()"  bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='nerf_image'><img src='images/cine.gif' width="160"></div>
+                <img src='images/cine.gif' width="160">
+              </div>
+              <script type="text/javascript">
+                function nerf_start() {
+                  document.getElementById('nerf_image').style.opacity = "1";
+                }
+
+                function nerf_stop() {
+                  document.getElementById('nerf_image').style.opacity = "0";
+                }
+                nerf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Accelerating dynamic MRI using a physics-based deep learning reconstruction</papertitle>
+              <br>
+              <strong>Christopher Sandino</strong>,
+              <a href="https://www.linkedin.com/in/peng-lai-82b8068/">Peng Lai</a>,
+              <a href="https://profiles.stanford.edu/shreyas-vasanawala">Shreyas Vasanawala</a>,
+              <a href="http://mrsrl.stanford.edu/~jycheng/">Joseph Cheng</a>
+              <br>
+        Presented at ISMRM 2019 (Magna Cum Laude). Submitted to MRM, 2019.
+              <br>
+              
+              <p></p>
+              <p>
+              Designed a convolutional neural network architecture to reconstruct dynamic MR images from vastly undersampled raw data by jointly leveraging physics-based signal models and deep 3D priors. Using this technique, MRI scans which once took 5-6 breath-holds now take a single breath-hold allowing for faster and higher accuracy assessment of cardiac function.</p>
+              
+              <a href="https://arxiv.org/abs/1911.05845" data-toggle="tooltip" title="PDF">
+                <i class="mx-1 fas fa-2x fa-file-pdf text-muted"></i>
+              </a> &nbsp&nbsp&nbsp&nbsp
+              <a href="https://www.slideshare.net/ChristopherSandino/dlespirit-improving-robustness-to-sense-model-errors-in-deep-learningbased-reconstruction">
+                <i class="mx-1 fab fa-2x fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
+              </a>
+            </td>
+          </tr> 
+
+          <!-- Auto image quality Project
+          <tr onmouseout="nerf_stop()" onmouseover="nerf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='nerf_image'><img src='images/artifact.png' width="160"></div>
+                <img src='images/artifact.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function nerf_start() {
+                  document.getElementById('nerf_image').style.opacity = "1";
+                }
+
+                function nerf_stop() {
+                  document.getElementById('nerf_image').style.opacity = "0";
+                }
+                nerf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Automatic assessment of MR image quality using machine learning</papertitle>
+              <br>
+              <a href="https://github.com/18jeffreyma">Jeffrey Ma</a>,
+              <a href="https://www.linkedin.com/in/ukashnakarmi">Ukash Nakarmi</a>,
+              <a href="https://www.linkedin.com/in/cedricyue">Cedric Yue Sik Kin</a>,
+              <strong>Christopher Sandino</strong>,
+              <a href="http://mrsrl.stanford.edu/~jycheng/">Joseph Cheng</a>,
+              <a href="https://web.stanford.edu/~pauly/">John Pauly</a>,
+              <a href="https://profiles.stanford.edu/shreyas-vasanawala">Shreyas Vasanawala</a>
+              <br>
+        Presented at ISBI 2020. <a href="https://arxiv.org/abs/1912.02907"><em>Link</em></a>
+              <br>
+              <p></p>
+              <p>
+              Developed motion-robust acquisition based on 3D cones trajectory...</p>
+            </td>
+          </tr>  -->
+
+          <!-- Cones 4D flow Project -->
+          <tr onmouseout="flow_stop()" onmouseover="flow_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='4dflow_image'><img src='images/4dflow_time.gif' width="160"></div>
+                <img src='images/4dflow_slice.gif' width="160">
+              </div>
+              <script type="text/javascript">
+                function flow_start() {
+                  document.getElementById('4dflow_image').style.opacity = "1";
+                }
+
+                function flow_stop() {
+                  document.getElementById('4dflow_image').style.opacity = "0";
+                }
+                flow_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>High-dimensional blood flow imaging with motion-robust acquisition</papertitle>
+              <br>
+              <strong>Christopher Sandino</strong>,
+              <a href="https://www.frankongh.com/">Frank Ong</a>,
+              <a href="http://mrsrl.stanford.edu/~jycheng/">Joseph Cheng</a>,
+              <a href="https://profiles.stanford.edu/marcus-alley">Marc Alley</a>,
+              <a href="https://profiles.stanford.edu/shreyas-vasanawala">Shreyas Vasanawala</a>
+              <br>
+                Presented at ISMRM 2018 (Magna Cum Laude).
+              <br>
+              <p></p>
+              <p>
+              Developed a motion-robust MRI acquisition scheme to enable measurement of blood velocity as a function of 3D space and time. We leverage low-rank compressed representations and a stochastic algorithm to reconstruct 100GB datasets acquired from each scan. Our technique has enabled fast, free-breathing, and comprehensive abdominal MRI exams in pediatric patients without general anesthesia.</p>
+
+              <a href="https://www.slideshare.net/ChristopherSandino/accelerated-abdominal-4d-flow-mri-using-3d-goldenangle-cones-trajectory">
+                <i class="mx-1 fab fa-2x fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
+              </a>
+
+            </td>
+          </tr>
+
+          <!-- T2* mapping project -->
+          <tr onmouseout="t2_stop()" onmouseover="t2_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='t2_image'><img src='images/confidence.png' width="160"></div>
+                <img src='images/t2star.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function t2_start() {
+                  document.getElementById('t2_image').style.opacity = "1";
+                }
+
+                function t2_stop() {
+                  document.getElementById('t2_image').style.opacity = "0";
+                }
+                t2_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Cardiac tissue characterization using magnetic tissue parameter mapping</papertitle>
+              <br>
+              <strong>Christopher Sandino</strong>,
+              <a href="https://kellmanp.github.io/webpages/">Peter Kellman</a>,
+              <a href="https://www.nhlbi.nih.gov/science/advanced-cardiovascular-imaging/people/arai-andrew">Andrew Arai</a>,
+              <a href="https://twitter.com/CloudyNerd">Michael Hansen</a>,
+              <a href="https://sites.google.com/view/huixue/home">Hui Xue</a>
+              <br>
+        Published in JCMR, 2015.
+              <br>
+              <p></p>
+              <p>
+              Developed a more robust method for measuring T2*, a magnetic tissue parameter which can be used to identify iron overload in the heart. We also formulated a method to derive "confidence" maps using noise statistics derived from a short and simple calibration scan. This technique is implemented in medical image reconstruction framework, <a href="http://gadgetron.github.io/">Gadgetron</a>, and is being used at over 30 clinical sites <a href="https://dir.nhlbi.nih.gov/staffpages/kellmanp/GADGETRON.html">worldwide</a>.
+              </p>
+
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4316604/" data-toggle="tooltip" title="PDF">
+                <i class="mx-1 fas fa-2x fa-file-pdf text-muted"></i>
+              </a> &nbsp&nbsp&nbsp&nbsp
+              <a href="https://www.slideshare.net/ChristopherSandino/evaluating-precision-of-t2-mapping-methods-for-mri-tissue-characterization">
+                <i class="mx-1 fab fa-2x fa-slideshare text-muted" data-toggle="tooltip" title="Slides"></i>
+              </a>
+            </td>
+          </tr>
+
+         
+          
+
+        </tbody></table>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Template borrowed from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
