@@ -95,21 +95,21 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
           <!-- Cine Project -->
-          <tr onmouseout="nerf_stop()" onmouseover="nerf_start()"  bgcolor="#ffffd0">
+          <tr onmouseout="cine_stop()" onmouseover="nerf_start()"  bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='nerf_image'><img src='images/cine.gif' width="160"></div>
-                <img src='images/cine.gif' width="160">
+                <div class="two" id='cine_image'><img src='images/cine.gif' width="170"></div>
+                <img src='images/cine.gif' width="170">
               </div>
               <script type="text/javascript">
-                function nerf_start() {
-                  document.getElementById('nerf_image').style.opacity = "1";
+                function cine_start() {
+                  document.getElementById('cine_image').style.opacity = "1";
                 }
 
-                function nerf_stop() {
-                  document.getElementById('nerf_image').style.opacity = "0";
+                function cine_stop() {
+                  document.getElementById('cine_image').style.opacity = "0";
                 }
-                nerf_stop()
+                cine_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
@@ -176,8 +176,8 @@
           <tr onmouseout="flow_stop()" onmouseover="flow_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='4dflow_image'><img src='images/4dflow_time.gif' width="160"></div>
-                <img src='images/4dflow_slice.gif' width="160">
+                <div class="two" id='4dflow_image'><img src='images/4dflow_time.gif' width="170"></div>
+                <img src='images/4dflow_slice.gif' width="170">
               </div>
               <script type="text/javascript">
                 function flow_start() {
@@ -216,8 +216,8 @@
           <tr onmouseout="t2_stop()" onmouseover="t2_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='t2_image'><img src='images/confidence.png' width="160"></div>
-                <img src='images/t2star.png' width="160">
+                <div class="two" id='t2_image'><img src='images/confidence.png' width="170"></div>
+                <img src='images/t2star.png' width="170">
               </div>
               <script type="text/javascript">
                 function t2_start() {
